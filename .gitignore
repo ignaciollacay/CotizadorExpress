@@ -1,7 +1,0 @@
-*.user
-*.filters
-*.sln
-*.vcxproj
-*.txt
-**/debug
-**/.vs

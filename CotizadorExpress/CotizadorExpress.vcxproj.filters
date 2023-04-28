@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Vista">
+      <UniqueIdentifier>{69c03d29-30bb-4432-8c62-8dabf54ebb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modelo">
+      <UniqueIdentifier>{f76235d6-911a-4fd1-8362-a7749fc1720c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Presentador">
+      <UniqueIdentifier>{3304bdbb-88b2-4e6b-b64a-5ce32a2fbee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modelo\Prendas">
+      <UniqueIdentifier>{3695b305-8f5f-4adf-bb94-f9fbf20c70fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modelo">
+      <UniqueIdentifier>{77578e32-f955-437c-a6b8-15c1f1ca35e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vista">
+      <UniqueIdentifier>{cd863dd1-ab63-4b8f-9dff-a97418f29652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Presentador">
+      <UniqueIdentifier>{fc1e69ab-ae8f-47d3-9a79-9f8a17dfa226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modelo\Prendas">
+      <UniqueIdentifier>{d15c29b3-370c-4234-9383-21f2858e2139}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camisa.h">
+      <Filter>Header Files\Modelo\Prendas</Filter>
+    </ClInclude>
+    <ClInclude Include="Prenda.h">
+      <Filter>Header Files\Modelo\Prendas</Filter>
+    </ClInclude>
+    <ClInclude Include="Pantalon.h">
+      <Filter>Header Files\Modelo\Prendas</Filter>
+    </ClInclude>
+    <ClInclude Include="Cotizacion.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Fecha.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPresentador.h">
+      <Filter>Header Files\Presentador</Filter>
+    </ClInclude>
+    <ClInclude Include="Tienda.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendedor.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="IReglasNegocio.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCotizaciones.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="IStockable.h">
+      <Filter>Header Files\Modelo\Prendas</Filter>
+    </ClInclude>
+    <ClInclude Include="IVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendedor.cpp">
+      <Filter>Source Files\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPresentador.cpp">
+      <Filter>Source Files\Presentador</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCotizaciones.cpp">
+      <Filter>Source Files\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Fecha.cpp">
+      <Filter>Source Files\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Cotizacion.cpp">
+      <Filter>Source Files\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Tienda.cpp">
+      <Filter>Source Files\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Pantalon.cpp">
+      <Filter>Source Files\Modelo\Prendas</Filter>
+    </ClCompile>
+    <ClCompile Include="Prenda.cpp">
+      <Filter>Source Files\Modelo\Prendas</Filter>
+    </ClCompile>
+    <ClCompile Include="Camisa.cpp">
+      <Filter>Source Files\Modelo\Prendas</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
